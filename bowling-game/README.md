@@ -3,7 +3,7 @@ phpunit setup
 
 This is a simple bootstrap project for PHP with phpunit
 
-For PHP 7.2 or above just run:
+For PHP 8.0 or above just run:
 
 ```
 ./composer install
@@ -13,7 +13,7 @@ For PHP 7.2 or above just run:
 To run the tests just run:
 
 ```
-phpunit --bootstrap vendor/autoload.php tests --filter testNotFailing
+phpunit --bootstrap vendor/autoload.php tests --filter GameTest
 ```
 You need PHP 7.2 or above.
 
